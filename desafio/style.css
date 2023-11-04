@@ -1,0 +1,10 @@
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteiner{
+    width: 400px;
+    height: 400px;
+    
+}
