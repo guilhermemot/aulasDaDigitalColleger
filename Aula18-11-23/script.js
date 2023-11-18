@@ -11,3 +11,15 @@ let pessoa = {
 }
 
 alert("Boa tarde " + pessoa.nome + " sua idade é " + pessoa.idade + " você possui " + pessoa.tamanho + " metros e mora na " + pessoa.rua);
+
+
+
+function Gato(nomePassado, racaPassada){
+    this.nome = nomePassado;
+    this.raca = racaPassada;
+}
+let gatoLico = new Gato("Lico", "Siames");
+let gatoJuba = new Gato("Juba", "Pe duro");
+console.log(gatoJuba);
+console.log(gatoLico);
+
